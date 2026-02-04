@@ -25,3 +25,16 @@
 # Пример: генерация лицензии
 from licensing import generate_license
 license_token = generate_license(hwid, days=30)
+
+Другие проекты скоро появятся...
+📊 GitHub Stats
+
+  https://github-readme-stats.vercel.app/api?username=destraa2&show_icons=true&theme=dracula&hide_border=true
+  https://github-readme-streak-stats.herokuapp.com/?user=destraa2&theme=dracula&hide_border=true
+
+📫 Связь со мной
+
+  https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white
+  
+
+⭐ Если проект полезен — ставь звёздочку!
