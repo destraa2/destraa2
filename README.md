@@ -1,16 +1,27 @@
-## Hi there 👋
+<div align="center">
+  <h1>Привет! Я destraa2 👋</h1>
+  <p>Python-разработчик | Telegram-боты | Автоматизация | Лицензирование софта | Backend</p>
+</div>
 
-<!--
-**destraa2/destraa2** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<br>
 
-Here are some ideas to get you started:
+## 🛠️ Технологии, с которыми работаю
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,sqlite,selenium,git,linux,docker,vscode&perline=7" />
+</div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🔥 Основные проекты
+
+### [grege546 — Telegram-бот для выдачи HWID-лицензий](https://github.com/destraa2/grege546)
+Система генерации и управления лицензиями, привязанными к железу компьютера.  
+- Telegram-интерфейс (aiogram)  
+- Криптографическая подпись (Ed25519)  
+- HWID-генерация и проверка  
+- SQLite + простая GUI (PyQt)  
+- Selenium-автоматизация  
+- Безопасное хранение ключей через .env
+
+```python
+# Пример: генерация лицензии
+from licensing import generate_license
+license_token = generate_license(hwid, days=30)
